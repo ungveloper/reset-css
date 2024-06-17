@@ -1,16 +1,18 @@
 /*
- * Version: v1.0.1
- * Updated: 2024-03-11
+ * Version: v1.0.2
+ * Updated: 2024-06-17
  */
-
+:root { --primary-color: #000000; --secondary-color: #FFFFFF; --background-color: #FFFFFF; --text-color: #000000; }
 * { margin: 0; padding: 0; box-sizing: border-box; font: inherit; color: inherit; }
 html { width: 100%; height: 100%; font-size: 62.5%; }
-body { line-height: 1; }
-a, button { -webkit-tap-highlight-color: transparent; }
+body { background: var(--background-color); line-height: 1.5; word-break: keep-all; color: var(--text-color); }
 a { text-decoration: none; }
 button { cursor: pointer; }
 ol, ul { list-style: none; }
-img, video, svg { -webkit-user-drag: none; max-width: 100%; }
-input, textarea, button { border: none; outline: none; background: none; }
-input, textarea { width: 100%; }
+a, input, textarea, button, select { -webkit-tap-highlight-color: transparent; }
+input, textarea, button, select { width: 100%; border: none; outline: none; background: none; }
+img, video, svg { -webkit-user-drag: none; max-width: 100%; object-fit: cover; }
 textarea { resize: none; }
+table { width: 100%; }
+th { text-align: left; }
+b { font-weight: 700; }

@@ -1,11 +1,11 @@
 /*
- * Version: v1.0.3
- * Updated: 2024-06-28
+ * Version: v1.0.4
+ * Updated: 2024-08-08
  */
 :root { --primary-color: #000000; --secondary-color: #FFFFFF; --background-color: #FFFFFF; --text-color: #000000; }
 * { margin: 0; padding: 0; box-sizing: border-box; font: inherit; color: inherit; }
 html { width: 100%; height: 100%; font-size: 62.5%; }
-body { background: var(--background-color); line-height: 1.5; word-break: keep-all; color: var(--text-color); }
+body { background: var(--background-color); line-height: 1.5; word-break: break-all; color: var(--text-color); }
 a { text-decoration: none; }
 button { cursor: pointer; }
 ol, ul, summary { list-style: none; }
@@ -14,5 +14,6 @@ input, textarea, button, select, summary { width: 100%; border: none; outline: n
 img, video, svg { -webkit-user-drag: none; max-width: 100%; object-fit: cover; }
 textarea { resize: none; }
 table { border-collapse: collapse; border-spacing: 0; width: 100%; }
+th, td { vertical-align: top; }
 th { text-align: left; }
 b { font-weight: 700; }

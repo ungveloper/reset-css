@@ -1,6 +1,6 @@
 /*
- * Version: v1.0.5
- * Updated: 2024-08-23
+ * Version: v1.0.6
+ * Updated: 2024-08-29
  */
 :root { --primary-color: #000000; --secondary-color: #FFFFFF; --background-color: #FFFFFF; --text-color: #000000; }
 * { margin: 0; padding: 0; box-sizing: border-box; font: inherit; color: inherit; }
@@ -10,6 +10,7 @@ a { text-decoration: none; }
 button { cursor: pointer; }
 ol, ul, summary { list-style: none; }
 a, input, textarea, button, select { -webkit-tap-highlight-color: transparent; }
+a, span { display: inline-block; }
 input, textarea, button, select, summary { width: 100%; border: none; outline: none; background: none; }
 img, video, svg { -webkit-user-drag: none; max-width: 100%; object-fit: cover; }
 textarea { resize: none; }
